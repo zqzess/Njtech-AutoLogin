@@ -28,8 +28,10 @@
 默认电信，如果要换中国移动请对`中国移动`进行UrlEncode,然后替换`--data-raw`下的`channelshow`的值，并替换`channel`的值为``%40cmcc``
 
 ## iphone手机 ios 自动登录 
-使用javascript版，需要[surge for ios](https://nssurge.com/)
+使用javascript版，需要[surge for ios](https://nssurge.com/)或者[Quantumult X](https://apps.apple.com/us/app/quantumult-x/id1443988620)
 
-**surge 国区App Store不可见**
+javascript版兼容nodejs，需要安装request模块
+
+**surge 和 Quantumult X 国区App Store不可见**
 
 详细说明及安装[请见 -->](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/NjtechAutoLogin)

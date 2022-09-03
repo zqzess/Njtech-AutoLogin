@@ -40,5 +40,24 @@ javascript版兼容nodejs，需要安装request模块
 最近发现iPad Wi-Fi版连上Njtech-Home使用surge或者QuantumultX自动登陆可能会出现超时的原因，发现是因为
 没法正常dns解析所以需要添加hosts
 
+**Surge**
+
+通用-DNS-本地DNS映射-新增本地值
+|域名|本地址值|
+|--|--|
+|u.njtech.edu.cn|202.119.242.37|
+|i.njtech.edu.cn|202.119.242.32|
+
+或者修改配置文件
+```
+[Host]
+u.njtech.edu.cn = 202.119.242.37
+i.njtech.edu.cn = 202.119.242.32
+```
+**QuantumultX**
+```
+address=/u.njtech.edu.cn/202.119.242.37
+address=/i.njtech.edu.cn/202.119.242.32
+```
 ## 安卓平台
 新建了文件夹。

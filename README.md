@@ -35,3 +35,10 @@ javascript版兼容nodejs，需要安装request模块
 **surge 和 Quantumult X 国区App Store不可见**
 
 详细说明及安装[请见 -->](https://github.com/zqzess/rule_for_quantumultX/tree/master/js/Mine/NjtechAutoLogin)
+
+## iPad Wi-Fi版
+最近发现iPad Wi-Fi版连上Njtech-Home使用surge或者QuantumultX自动登陆可能会出现超时的原因，发现是因为
+没法正常dns解析所以需要添加hosts
+
+## 安卓平台
+新建了文件夹。

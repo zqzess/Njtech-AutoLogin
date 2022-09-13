@@ -56,6 +56,7 @@ i.njtech.edu.cn = 202.119.242.32
 ```
 **QuantumultX**
 ```
+[dns]
 address=/u.njtech.edu.cn/202.119.242.37
 address=/i.njtech.edu.cn/202.119.242.32
 ```

@@ -16,6 +16,7 @@
 
 1. 修改login.sh 脚本内账号密码运营商
 2. /etc/rc.local内添加``/root/autoLoginMain.sh``
+3. 若基于openwrt的其他固件版本，如PandoraBox运行不正常，可尝试使用Pandora_ver中文件进行替换
    
 ## mac系统自动登录
 
